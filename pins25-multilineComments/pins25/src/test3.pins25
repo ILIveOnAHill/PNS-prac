@@ -1,0 +1,19 @@
+fun putint(val)
+fun putstr(val)
+
+fun main() =
+    let
+        var i = 65535
+        var sum = 0
+        fun nop() = 0
+    in
+        while i > 0 do
+            nop(),
+            sum = sum + i,
+            i = i - 1
+        end,
+        putstr("Sum of all integers from 1 to 65535 = "),
+        putint(sum),
+        putstr("\n")
+
+    end

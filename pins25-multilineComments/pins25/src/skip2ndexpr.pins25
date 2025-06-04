@@ -1,0 +1,12 @@
+fun putint(val)
+fun putstr(val)
+
+
+fun main() =
+    if 1 then
+        putstr("1\00"),
+        putstr("2\00")
+    else 
+        putstr("3\00")
+    end,
+    0
