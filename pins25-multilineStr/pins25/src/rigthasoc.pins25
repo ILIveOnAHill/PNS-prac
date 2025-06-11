@@ -1,0 +1,7 @@
+fun putint(val)
+fun main()=
+    if 1 then
+        putint(1 + 2 + 3 + 4 + 5)
+    end, 
+    0
+

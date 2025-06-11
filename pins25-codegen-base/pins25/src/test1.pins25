@@ -1,0 +1,15 @@
+fun exit(code)
+fun getint()
+fun putint(val)
+fun getstr(str)
+fun putstr(val)
+fun new(size)
+fun del(addr)
+
+fun waitForEnter() =
+    getstr(new(1000))
+
+fun main() =
+    putstr("Hello, world!\n"),
+    waitForEnter(),
+    exit(42)
